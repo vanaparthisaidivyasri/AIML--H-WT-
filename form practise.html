@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>forms</title>
+</head>
+<body>
+    <h1>Create An Account</h1>
+    <form>
+        <fieldset>
+            <legend>Account Details</legend>
+            <table>
+                <tr>
+                    <td><label>Full Name:</label></td>
+                    <td><input type="text" name="FN" size="14" placeholder="Ex:vanaparthi sai divya sri" required></td>
+                </tr>
+                <tr>
+                    <td><label>Email Address:</label></td>
+                    <td><input type="email" name="EA" size="14" placeholder="Ex:divya@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td><input type="password" name="password" size="14" required></td>
+                </tr>
+                <tr>
+                    <td><label>Confirm Password:</label></td>
+                    <td><input type="password" name="password" size="14" required></td>
+                </tr>
+            </table>
+            <input type="submit">
+        </fieldset>
+    </form>
+    <h1>Annual Conference Registration</h1>
+    <form>
+        <fieldset>
+            <legend>Registration Details</legend>
+             <table>
+                <tr>
+                    <td> <label>Full Name:</label></td>
+                    <td><input type="text" name="FN" size="18" placeholder="Ex:vanaparthi sai divya sri" required></td>
+                </tr>
+                <tr>
+                    <td><label>Contact Number:</label></td>
+                    <td><input type="tel" name="CN" size="18" placeholder="Ex:000-999-8888" required></td>
+                </tr>
+                <tr>
+                    <td><label>Select Attendence Date:</label></td>
+                    <td><input type="date" name="attendence date" required></td>
+                </tr>     
+            </table>
+            <label>Choose Meal Preference:</label>
+            <input type="radio" name="meals" value="V">Vegetarian
+            <input type="radio" name="meals" value="NV">Non-Vegetarian
+            <input type="radio" name="meals" value="v">Vegan <br>
+            <label>Select Ticket Type:</label>
+            <input type="text" name="STY" size="18" placeholder="Standard Ticket[v]" required><br>
+            <label>Any Dietary Restrictions or Notes:</label><br>
+            <input type="text" name="ADRN" size="18" ><br>
+            <input type="text" name="ADRN" size="18"><br>
+            <input type="text" name="ADRN" size="18"><br>
+            <input type="text" name="ADRN" size="18"><br>
+            <input type="submit">
+        </fieldset>    
+    </form>
+    <form>
+        <h1>Student Enrollment</h1>
+        <form>
+            <fieldset>
+                <legend>#####</legend>
+                <fieldset>
+                <legend>Personal Information</legend>
+                <table>
+                    <tr>
+                        <td><label>First Name:</label></td>
+                        <td><input type="text" name="FN" size="16" placeholder="Ex:vanaparthi" required ></td>
+                    </tr>
+                    <tr>
+                        <td><label>Last Name:</label></td>
+                        <td><input type="text" name="LN" size="16" placeholder="sai divya sri" required></td><br>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Academic Interests</legend>
+                <label>Choose Your Courses:</label><br>
+                <input type="radio" name="CYC" value="WD">Web Development(HTML/CSS)<br>
+                <input type="radio" name="CYC" value="JS">Java Script Programming<br>
+                <input type="radio" name="CYC" value="DB">Data Base Management<br>
+                <label> **I agree to the terms and conditions** .</label>
+                <input type="radio" name="agree" value="I"><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+            </fieldset>
+</body>
+</html>
