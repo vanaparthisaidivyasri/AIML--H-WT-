@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>                      /*descend selector in nav*/
+        nav a{
+            display: block;
+            background-color:blue;
+            color: white;
+            text-decoration: none;
+            margin: 30px;
+            width: 50px;
+            height: 20px;
+            box-shadow: 6px 7px 5px palegreen;
+            border-radius: 25px;}
+        li{
+            display: inline-block;
+            background-color:plum;
+            width: 60px;
+            height: 20px;
+            box-shadow:6px 7px 5px paleturquoise;}
+        #A:hover{
+            visibility:hidden;}        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">home</a>
+        <a href="">contact</a>
+        <a href="">settings</a>
+        <a href="">footer</a>
+        <a href="">profile</a>
+    </nav>
+    <ul>
+        <li id="A">list1</li>
+        <li>list2</li>
+        <li>list3</li>
+        <li>list4</li>
+        <li>list5</li>
+    </ul>    
+</body>
+</html>
